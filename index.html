@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Kenneth Buijssen - Portfolio</title>
+</head>
+<body>
+    <div class="kb-wrapper">
+        <nav class="kb-main-nav navbar navbar-expand-md">
+            <a class="navbar-brand" href="./"> Kenneth Buijssen</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav">
+                    <li class="nav-item">       <a class="nav-link" href="./#projects">Projects</a></li>
+                    <li class="nav-item">       <a class="nav-link" href="./#skills">Skills</a></li>
+                    <li class="nav-item">       <a class="nav-link" target="_blank" href="files/kenneth-buijssen-cv.pdf">CV</a></li>
+                </ul>
+            </div>
+
+            <!-- shorthand icons links, hide when using dropdown nav -->
+            <ul class="kb-icon-links navbar-nav d-none d-md-flex">
+                <li class="nav-item"><a class="nav-link" href="mailto:mail@kennethbuijssen.com"><i class="fas fa-envelope"></i></a></li>
+                <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/KennethBuijssen"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="kb-heading alert alert-info alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        I'm currently looking for an half-year long internship to finish my graduation year. Is your team looking for a highly motivated intern who strives to learn new things? Email me at <a href="mailto:mail@kennethbuijssen.com">mail@kennethbuijssen.com</a> to discuss how I can bring value to your team.
+                    </div>
+
+                    <h1 class="kb-page-title"> Kenneth Buijssen </h1>
+                    <p class="kb-page-subtitle text-secondary">Engine and generalist game programmer</p>
+                </div>
+            </div>
+
+
+            <!-- Everything outside the main tag is consistent between every page -->
+            <main class="kb-padded-hr">
+                <div class="row">
+                    <div class="col">
+                        <p>I’m an engine and generalist programmer, always looking for better ways to write robust and maintainable code. In the past I’ve worked on various projects, from puzzle games, to Unreal plugins, and custom engines. I love tackling complex and technical challenges to allow the vision to be brought to life.</p>
+
+                        <p>
+
+                            Over the last few years I’ve been a game programming student at <a target="_blank" href="https://www.buas.nl/opleidingen/creative-media-and-game-technologies"> IGAD</a> in the Netherlands. Where I’ve found that what I love most about programming, is regardless of what role I’m functioning in for the project, is to find and overcome challenging problems.
+                        </p>
+
+                        <p>A selection of my best work can be found below. If you’d like to get in touch, shoot me a message at <a href="mailto:mail@kennethbuijssen.com">mail@kennethbuijssen.com</a></p>
+
+                        <!-- Call to action buttons -->
+                        <a class="btn btn-sm btn-danger" href="mailto:mail@kennethbuijssen.com">mail@kennethbuijssen.com</a>
+                        <a class="btn btn-sm btn-danger" target="_blank" href="files/kenneth-buijssen-cv.pdf">CV - pdf <i class="fas fa-file-pdf"></i></a>
+                        <a class="btn btn-sm btn-danger" target="_blank" href="files/kenneth-buijssen-cv.docx">CV - word <i class="fas fa-file-word"></i></a>
+                    </div>
+
+                    <hr class="kb-padded-hr">
+
+                </div>
+
+                <hr class="kb-padded-hr">
+
+                <div class="row">
+                    <div class="col">
+                        <!-- Show a list of project previews-->
+                        <div class="container-fluid" id="projects">
+                            <div class="row">
+                                <div class="kb-project-preview col-12 col-md-6">
+                                    <a href="./projects/merge-assist.html">
+                                        <img class="img-fluid" src="./img/merge-assist.png">
+                                        <h4 class="kb-heading ">Merge assist</h4>
+                                        <div class="kb-subheading text-secondary">Unreal engine plugin - solo project</div>
+                                    </a>
+
+                                    <p>
+                                        Merge assist is a prototype for a custom blueprint merge tool, meant to improve upon the merge workflow of the unreal engine. It removes the need to switch back between the diff and blueprint editor. And streamlines the merge process by converting each diff and conflict into changes which can be applied automatically.
+                                    </p>
+                                </div>
+
+                                <div class="kb-project-preview col-12 col-md-6">
+                                    <a href="./projects/project-sulphur.html">
+                                        <img class="img-fluid" src="./img/project-sulphur.png">
+                                        <h4 class="kb-heading">Project Sulphur</h4>
+                                        <div class="kb-subheading text-secondary">Custom game engine - team project (15)</div>
+                                    </a>
+
+                                    <p>
+                                        Project Sulphur is a cross platform game engine, supporting multiple rendering and physics backends. In the first 3 months of the project a technical design document was created. This document was then used by the team to create the engine in the following 9 months. In this project I was one of the engine programmers, my main responsibilities where to implement the windows platform, job system, and serialization.</p>
+                                </div>
+
+                                <div class="kb-project-preview col-12 col-md-6">
+                                    <a href="./projects/hex-engine.html">
+                                        <img class="img-fluid" src="./img/hex-engine.png">
+                                        <h4 class="kb-heading">Hex engine</h4>
+                                        <div class="kb-subheading text-secondary">Custom game engine - team project (4-8)</div>
+                                    </a>
+
+                                    <p>
+                                        The hex engine is a custom game engine for turn based games on a hex grid. It includes lua for the gameplay scripting and a custom editor. In this project I was one of the engine programmers, responsible for writing part of the engines core. Including the platform and entity component system.</p>
+                                </div>
+
+                                <div class="kb-project-preview col-12 col-md-6">
+                                    <a href="./projects/nebelkampf.html">
+                                        <img class="img-fluid" src="./img/nebelkampf.png">
+                                        <h4 class="kb-heading">Nebelkampf</h4>
+                                        <div class="kb-subheading text-secondary">Game project - team project (15)</div>
+                                    </a>
+
+                                    <p>
+                                        Nebelkampf is an online turn-based strategy game build using the hex engine. For this project I functioned both as an engine and gameplay programmer. Supporting the game team by adding and improving on the engine’s tools, debugging and troubleshooting any issues that came up. Next to this I supported the gameplay team specifically, setting up a framework for the designers to work with, and helping them with the code design and implementation of the game.                                    </p>
+                                </div>
+
+                                <div class="kb-project-preview col-12 col-md-6">
+                                    <a href="./projects/lupus.html">
+                                        <img class="img-fluid" src="./img/lupus.png">
+                                        <h4 class="kb-heading">Lupus</h4>
+                                        <div class="kb-subheading text-secondary">Unity game project - team project (8)</div>
+                                    </a>
+
+                                    <p>
+                                        Lupus is an illusion-based puzzle platformer inspired by games such as monument valley. The goal is for the player to explore the game world by rotating it, allowing different paths to become available based on the current perspective.                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <hr class="kb-padded-hr">
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3 id="skills" class="kb-heading">Skills</h3>
+                    </div>
+
+                    <div class="col">
+                        <ul>
+                            <li>Dutch (Native) and English (Proficient)</li>
+                            <li>C++, C#</li>
+                            <li>Perforce, Git</li>
+                            <li>Jenkins</li>
+                            <li>CMake</li>
+                            <li>Unity engine</li>
+                            <li>Unreal engine plugin development</li>
+                            <li>Scrum & agile development</li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <p>In the past I've been part of a wide range of different projects from programming Atmega328P microprocessor to maintaining a virtualized home lab.</p>
+
+                        <p>Through all of this I've gained various levels of knowledge of a multitude of programming languages and technologies, not mentioned under my skills. Including C, Python, Lua, CSS3, html5, Java, Javascript, MySQL, Oracle SQL, PHP, Python, NGINX, and various linux distributions.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col"><a class="nav-link" href="mailto:mail@kennethbuijssen.com"><i class="fas fa-envelope"></i>
+                    <span class="d-none d-md-inline"> mail@kennethbuijssen.com</span>
+                    <span class="d-md-none"> Email</span>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a class="nav-link" target="_blank" href="https://github.com/KennethBuijssen"><i class="fab fa-github"></i> Github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-secondary">&copy Kenneth Buijssen 2019</div>
+    </footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

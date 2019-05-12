@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Kenneth Buijssen - Portfolio</title>
+</head>
+<body>
+<div class="kb-wrapper">
+    <nav class="kb-main-nav navbar navbar-expand-md">
+        <a class="navbar-brand" href="./"> Kenneth Buijssen</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav">
+                <li class="nav-item">       <a class="nav-link" href="./#projects">Projects</a></li>
+                <li class="nav-item">       <a class="nav-link" href="./#skills">Skills</a></li>
+                <li class="nav-item">       <a class="nav-link" target="_blank" href="files/kenneth-buijssen-cv.pdf">CV</a></li>
+            </ul>
+        </div>
+
+        <!-- shorthand icons links, hide when using dropdown nav -->
+        <ul class="kb-icon-links navbar-nav d-none d-md-flex">
+            <li class="nav-item"><a class="nav-link" href="mailto:mail@kennethbuijssen.com"><i class="fas fa-envelope"></i></a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/KennethBuijssen"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Everything outside the main tag is consistent between every page -->
+        <main class="kb-padded-hr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="./img/lupus.png">
+                    </div>
+
+                    <div class="col-12 col-md-8">
+                        <h2 class="kb-heading">Lupus</h2>
+                        <p>
+                            Lupus is an illusion-based puzzle platformer inspired by games such as monument valley. The goal is for the player to explore the game world by rotating it, allowing different paths to become available based on the current perspective.                        </p>
+
+                        <h3 class="kb-heading">
+                            What did I do?
+                        </h3>
+
+                        <ul>
+                            <li>Create a proof of concept to show that it is possible to render non-Euclidean objects inside of the Unity engine.</li>
+                            <li>Create a system which allows for the navigation of non-Euclidian objects inside of the Unity engine, by dynamically adjusting the navigation graph to match the projection as seen by the camera.</li>
+                            <li>Utilize the navigation system to determine the faces which would break the rendering of the illusion. And hide the faces at these moments.</li>
+                            <li>Add overrides which give the designers more control over the illusion and allow them to work around the fact that the navigation system completely ignores depth. For example, one cube being completely obscured by a wall.</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <h3 class="kb-heading">Project details</h3>
+
+                        <table class="table table-bordered">
+                            <tr><td><b>Role(s): </b>Programmer</td></tr>
+                            <tr><td><b>Year: </b>2016</td></tr>
+                            <tr><td><b>Team size: </b>8</td></tr>
+                            <tr><td><b>Duration: </b>2 weeks</td></tr>
+                            <tr><td><b>Engine: </b>Unity</td></tr>
+                            <tr><td><b>Languages: </b>C#</td></tr>
+                            <tr><td><b>Technology: </b>Unity</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <ul>
+
+            </ul>
+        </main>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col"><a class="nav-link" href="mailto:mail@kennethbuijssen.com"><i class="fas fa-envelope"></i>
+                <span class="d-none d-md-inline"> mail@kennethbuijssen.com</span>
+                <span class="d-md-none"> Email</span>
+            </a>
+            </div>
+
+            <div class="col">
+                <a class="nav-link" target="_blank" href="https://github.com/KennethBuijssen"><i class="fab fa-github"></i> Github</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-secondary">&copy Kenneth Buijssen 2019</div>
+</footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

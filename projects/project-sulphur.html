@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Kenneth Buijssen - Portfolio</title>
+</head>
+<body>
+<div class="kb-wrapper">
+    <nav class="kb-main-nav navbar navbar-expand-md">
+        <a class="navbar-brand" href="./"> Kenneth Buijssen</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav">
+                <li class="nav-item">       <a class="nav-link" href="./#projects">Projects</a></li>
+                <li class="nav-item">       <a class="nav-link" href="./#skills">Skills</a></li>
+                <li class="nav-item">       <a class="nav-link" target="_blank" href="files/kenneth-buijssen-cv.pdf">CV</a></li>
+            </ul>
+        </div>
+
+        <!-- shorthand icons links, hide when using dropdown nav -->
+        <ul class="kb-icon-links navbar-nav d-none d-md-flex">
+            <li class="nav-item"><a class="nav-link" href="mailto:mail@kennethbuijssen.com"><i class="fas fa-envelope"></i></a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/KennethBuijssen"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Everything outside the main tag is consistent between every page -->
+        <main class="kb-padded-hr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="./img/project-sulphur.png">
+                    </div>
+
+                    <div class="col-12 col-md-8">
+                        <h2 class="kb-heading">Project Sulphur</h2>
+                        <p>
+                            Project Sulphur is a cross platform game engine, supporting multiple rendering and physics backends. In the first 3 months of the project a technical design document was created. This document was then used by the team to create the engine in the following 9 months. In this project I was one of the engine programmers, my main responsibilities where to implement the windows platform, job system, and serialization.
+                        </p>
+
+                        <p>
+                            The video below shows an example game created using project Sulphur by Hilze Vonck.
+                        </p>
+
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ipdGs72QDWk"></iframe>
+                        </div>
+
+                        <h3 class="kb-heading">
+                            What did I do?
+                        </h3>
+
+                        <ul>
+                            <li>Collaborate with the team to create a technical design document detailing the engine we planned to build.</li>
+
+                            <li>Create a job system which automatically checks for data contention based on the destiny engine. Backed by a task system to take care of the run time execution and avoid the overhead of the job system.</li>
+                            <li>Setup the main loop of the engine and create an application abstraction. This is done to allow for multiple test projects to be created while reusing as much code as possible.</li>
+                            <li>Implement the windows platform, initially this was done using glfw to get the engine up and running as fast as possible. Later this was replaced with an implementation using the windows API</li>
+                            <li>Implement input on windows (DirectInput) and the Playstation 4</li>
+                            <li>Created a serialization system, providing a pipeline to access and modify all component data. Specifically designed to integrate as cleanly as possible into the engine. Providing a way to save and load the game state and allow the editor to query data for the inspector.</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <h3 class="kb-heading">Project details</h3>
+
+                        <table class="table table-bordered">
+                            <tr><td><b>Role(s): </b>Engine programmer</td></tr>
+                            <tr><td><b>Year: </b>2017 - 2018</td></tr>
+                            <tr><td><b>Team size: </b>15</td></tr>
+                            <tr><td><b>Duration: </b>40 weeks</td></tr>
+                            <tr><td><b>Engine: </b>Custom</td></tr>
+                            <tr><td><b>Languages: </b>C++</td></tr>
+                            <tr><td><b>Technology: </b>GLFW, Windows API, Cereal, Playstation 4</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <ul>
+
+            </ul>
+        </main>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col"><a class="nav-link" href="mailto:mail@kennethbuijssen.com"><i class="fas fa-envelope"></i>
+                <span class="d-none d-md-inline"> mail@kennethbuijssen.com</span>
+                <span class="d-md-none"> Email</span>
+            </a>
+            </div>
+
+            <div class="col">
+                <a class="nav-link" target="_blank" href="https://github.com/KennethBuijssen"><i class="fab fa-github"></i> Github</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-secondary">&copy Kenneth Buijssen 2019</div>
+</footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

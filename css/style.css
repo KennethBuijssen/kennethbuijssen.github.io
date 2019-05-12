@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.kb-wrapper {
+    min-height: 100%;
+    padding-bottom: 6rem;
+}
+
+.kb-padded-hr
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    position: relative;
+    margin-top: -5rem;
+    height: 4rem;
+    clear: both;
+
+    /* Style the footer */
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+footer .nav-link {
+    display: inline-block;
+}
+
+/* Custom navbar styling */
+.kb-main-nav .navbar-brand, .kb-main-nav .kb-icon-links a {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.kb-main-nav .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.kb-main-nav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.kb-main-nav .navbar-brand:hover, .kb-main-nav .navbar-brand:focus, .kb-main-nav .kb-icon-links a:hover, .kb-main-nav .kb-icon-links :focus {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.kb-main-nav {
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.kb-page-title
+{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.kb-page-subtitle
+{
+    text-align: center;
+}
+
+.kb-heading
+{
+    margin-top: 0.5em;
+}
+
+/* Project layout */
+.kb-project-preview
+{
+    margin-bottom: 1rem;
+}
+
+.kb-project-preview a
+{
+    display: block;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.kb-project-preview h4, .kb-project-preview div
+{
+    text-align: center;
+}
+
+.kb-project-preview p
+{
+    text-align: justify;
+}
+
+.kb-project-preview .kb-subheading
+{
+    font-size: 0.95rem;
+}

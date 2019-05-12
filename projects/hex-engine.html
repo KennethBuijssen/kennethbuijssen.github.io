@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Kenneth Buijssen - Portfolio</title>
+</head>
+<body>
+<div class="kb-wrapper">
+    <nav class="kb-main-nav navbar navbar-expand-md">
+        <a class="navbar-brand" href="./"> Kenneth Buijssen</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav">
+                <li class="nav-item">       <a class="nav-link" href="./#projects">Projects</a></li>
+                <li class="nav-item">       <a class="nav-link" href="./#skills">Skills</a></li>
+                <li class="nav-item">       <a class="nav-link" target="_blank" href="files/kenneth-buijssen-cv.pdf">CV</a></li>
+            </ul>
+        </div>
+
+        <!-- shorthand icons links, hide when using dropdown nav -->
+        <ul class="kb-icon-links navbar-nav d-none d-md-flex">
+            <li class="nav-item"><a class="nav-link" href="mailto:mail@kennethbuijssen.com"><i class="fas fa-envelope"></i></a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/KennethBuijssen"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Everything outside the main tag is consistent between every page -->
+        <main class="kb-padded-hr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="./img/hex-engine.png">
+                    </div>
+
+                    <div class="col-12 col-md-8">
+                        <h2 class="kb-heading">Hex engine</h2>
+                        <p>
+                            The hex engine is a custom game engine for turn based games on a hex grid. It includes lua for the gameplay scripting and a custom editor. In this project I was one of the engine programmers, responsible for writing part of the engines core. Including the platform and entity component system.                        </p>
+
+                        <h3 class="kb-heading">
+                            What did I do?
+                        </h3>
+
+                        <ul>
+                            <li>Collaboratively designed the engine together with the team</li>
+                            <li>Designed, implemented, and maintained most for the core systems. Including the entity component system, transform system, prefab system, platform layer, input, application, and high-level control flow.</li>
+                            <li>Rewrote the tile system from the initial prototype to add more functionality and better define its edge cases.</li>
+                            <li>Created the token system, an abstraction allowing entities to be interacted with as pieces on a hex grid.</li>
+                            <li>Contributed to the editor, most notably adding an inspector allowing objects to be placed anywhere in the game world and their properties to be changed.</li>
+                            <li>Rewrote the asset system to add support for automatic reference counting, decouple the logic for loading certain types of assets, and async loading of certain asset types such as meshes.</li>
+                            <li>Added serialization to the engine, allowing the engine and game state to be saved and loaded to and from disk.</li>
+                            <li>Refactor and maintain the engine throughout its development, adjusting systems where required to keep the engine maintainable. Most notably after improving our concept with the team, splitting out the gameplay code into a separate layer from the engine code.</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <h3 class="kb-heading">Project details</h3>
+
+                        <table class="table table-bordered">
+                            <tr><td><b>Role(s): </b>Engine programmer, build engineer</td></tr>
+                            <tr><td><b>Year: </b>2016 - 2017</td></tr>
+                            <tr><td><b>Team size: </b>4 - 8</td></tr>
+                            <tr><td><b>Duration: </b>30 weeks</td></tr>
+                            <tr><td><b>Engine: </b>Custom</td></tr>
+                            <tr><td><b>Languages: </b>C++</td></tr>
+                            <tr><td><b>Technology: </b>SDL Cereal, stb, Jenkins, glm</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <ul>
+
+            </ul>
+        </main>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col"><a class="nav-link" href="mailto:mail@kennethbuijssen.com"><i class="fas fa-envelope"></i>
+                <span class="d-none d-md-inline"> mail@kennethbuijssen.com</span>
+                <span class="d-md-none"> Email</span>
+            </a>
+            </div>
+
+            <div class="col">
+                <a class="nav-link" target="_blank" href="https://github.com/KennethBuijssen"><i class="fab fa-github"></i> Github</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-secondary">&copy Kenneth Buijssen 2019</div>
+</footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
